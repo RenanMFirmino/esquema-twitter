@@ -1,15 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;900&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
+    
 }
 body{
     font-size: 100%;
+    background-color: #F3F3F3;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+.container{
+    flex-grow: 1;
+    background-color: #F3F3F3;
 }
 .card{
-    background-color: aquamarine;
-    max-width: 400px;
-    height: 400px;
-    margin-right: 10px;
+    background: linear-gradient(180deg,#ffe07e 50%,#fff 50%);
+    height: 38%;
+    border-radius: 0 30px 30px 0;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    height: 16vh;
+    width: 8vw;
+    font-weight: 95px;
+    margin-top: 6vh;
+    border-radius: 30px 30px 30px 30px;
+}
+.nome{
+    font-family: 'Poppins',sans-serif;
+    font-weight: 600;
+    font-size: 20px
+}
+.email{
+    font-family: 'Poppins',sans-serif;
+    font-size: 0.8rem;
+}
+#conf{
+    background-color: #fff;
+    height: 60.5%;
+    border-radius: 0 30px  0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 5vh;
+    padding-left: 3vh;
+}
+.link{
+    color: black;
+}
+.paginaPrincipal{
+    background-color: #F3F3F3;
+    flex-grow: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.posts{
+    width: 40vw;
+    
+}
+.header{
+    background-color: #fff;
+    border-radius: 0 0 30px 30px;
+    margin-bottom: 4vh;
+    padding-top: 8vh;
+    padding-left: 2vw;
+    height: 15vh;
+}
+.novo-comentario{
+    background-color: #fff;
+    border-radius: 30px 30px 30px 30px;
+    margin-bottom: 2vh;
+    display: flex;
+    flex-direction: row;
+    height: 20vh;
+}
+.comentario{
+    background-color: #fff;
+    border-radius: 30px 30px 30px 30px;
+    margin-bottom: 2vh;
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+}
+.user-img{
+    background: blueviolet;
+    height: 6vh;
+    width: 3vw;
+    border-radius: 30px 30px 30px 30px;
+    margin: 2vh;
+}
+.textArea{
+    resize: none;
+    border: none;
+    outline: none;
+    height: 9vh;
+    width: 30vw;
+    margin: 2vh;
+    font-size: 20px;
+}
+.botaoPostar{
+    align-self: flex-end;
+    background: #5A189A;
+    color: #fff;
+    height: 6vh;
+    width: 7vw;
+    margin: 2vh;
+    border-radius: 15px;
+    border: none;
+}
+.comentario-header{
+    background-color: #fff;
+    border-radius: 30px 30px 30px 30px;
+    margin: 2vh;
+    display: flex;
+    flex-direction: row;
+    height: 20vh;
+    gap: 1vh;
+    align-items: center;
+}
+.user-img-comentario{
+    background: blueviolet;
+    height: 6vh;
+    width: 2.8vw;
+    border-radius: 30px 30px 30px 30px;
+    
+}
+.comentario-conteudo{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.comit{
+    margin-left: 6vh;
+    margin-bottom: 2vh;
+    font-size: 15px;
+}
+.botaoComentario{
+    align-self: flex-end;
+    background: #5A189A;
+    color: #fff;
+    height: 5vh;
+    width: 3vw;
+    margin-top: 4vh;
+    margin-bottom: 2vh;
+    margin-right: 4vh;
+    border-radius: 15px;
+    border: none;
+}
+.userName{
+    color: #5A189A;
+}
+.bubble{
+    height: 3vh;
 }
