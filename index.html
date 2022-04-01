@@ -8,13 +8,57 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <div id="card-div" class="card">
-        <img id="perfil-foto" class="img" src="" alt="">
-        <h1 id="nomeusuario" class="nome">Nome do Usuário</h1>
-        <p id="username" class="email">@username</p>
-        <p id="user-email" class="email">email@email.com</p>
-    </div>
-    <!-- blob() -->
+
+    <main class="main">
+        <section class="container">
+            <div id="card-div" class="card">
+                <img id="perfil-foto" class="img" src="logo.png" alt="">
+                <h1 id="nomeusuario" class="nome">Nome do Usuário</h1>
+                <p id="username" class="email">@username</p>
+                <p id="user-email" class="email">email@email.com</p>   
+            </div>
+            <div id="conf">
+                <a href="" class="link">Perfil</a>
+                <a href="" class="link">Configuração</a>
+            </div>
+        </section >
+
+        <section class="paginaPrincipal">
+            <div class="posts">
+                <div class="header">
+                    <h2>Página Principal</h2>
+                </div>
+                
+                <div class="novo-comentario">
+                        <img src="logo.png" alt="" class="user-img">
+                        <textarea class="textArea" style="resize:none;" placeholder="o que está acontecendo"></textarea>
+                        <button class="botaoPostar">Postar</button> 
+                </div>
+                <div class="comentario">
+                    <div class="comentario-header">
+                        <img src="logo.png" alt="" class="user-img-comentario">
+                        <p class="userName">Nome de usuario</p>
+                    </div>
+                    <div class="comentario-conteudo">
+                        <p class="comit">texto sobre o que está acontecendo</p>
+                        <button class="botaoComentario"><img src="speech-bubble.png" alt="" class="bubble"></button> 
+                    </div>
+                </div>
+                <div class="comentario">
+                    <div class="comentario-header">
+                        <img src="logo.png" alt="" class="user-img-comentario">
+                        <p class="userName">Nome de usuario</p>
+                    </div>
+                    <div class="comentario-conteudo">
+                        <p class="comit">texto sobre o que está acontecendo</p>
+                        <button class="botaoComentario"><img src="speech-bubble.png" alt="" class="bubble"></button> 
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+    </main>
+    
     <div class="vermelho">
 
     </div>
